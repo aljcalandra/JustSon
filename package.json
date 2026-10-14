@@ -1,0 +1,23 @@
+{
+  "name": "justson",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Explore deeply nested JSON and compare documents, entirely in the browser",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "happy-dom": "^21.0.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.4"
+  },
+  "dependencies": {
+    "yaml": "^2.9.1"
+  }
+}
